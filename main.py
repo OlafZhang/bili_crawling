@@ -129,7 +129,7 @@ def send_notice_ifttt(text1, text2):
         color_print("[*]IFTTT debuging(%s)" % info, color="red")
     else:
         color_print("[*]Send Message via IFTTT...(%s)" % info, color="green")
-        url = f"https://maker.ifttt.com/trigger/python3_crawlsql_notice/with/key/ijVxLn62cIj7mDNcMvBsbTyIAm758xJ5eMP6X8H6rA4"
+        url = f"https://maker.ifttt.com/trigger/python3_*************_notice/with/key/ijVxLn62cIj7mD*************P6X8H6rA4"
         payload = {"value1": text1, "value2": text2}
         headers = {"Content-Type": "application/json"}
         while True:

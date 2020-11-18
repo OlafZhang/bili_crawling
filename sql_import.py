@@ -1,7 +1,7 @@
 #coding=utf-8
 #必须确保sql文件是UTF-8编码！
 import time,os,pymysql,sys,datetime
-db = pymysql.connect("localhost","root","123456","bili" )
+db = pymysql.connect("localhost","root","114514","bili" )
 count = 0
 mask_no = 0
 task_session = 0

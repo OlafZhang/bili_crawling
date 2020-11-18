@@ -1,7 +1,7 @@
 # 在数据库随机抽查
 import pymysql
 import random
-db = pymysql.connect("localhost", "root", "123456", "bili")
+db = pymysql.connect("localhost", "root", "114514", "bili")
 start = 1
 end = 2500000
 def part_scan():

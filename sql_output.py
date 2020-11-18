@@ -4,7 +4,7 @@
 
 import requests,time,traceback,os
 import pymysql,datetime
-db = pymysql.connect("localhost","root","123456","bili" )
+db = pymysql.connect("localhost","root","114514","bili" )
 
 start = 1
 end = 2500001

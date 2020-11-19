@@ -16,6 +16,8 @@ main.py的其它配置均在runtime.cfg可以配置
 
 其它py文件需要修改内部的相关代码和参数，如mysql密码
 
+main.py有两个模式：写入MySQL或写入sql文件
+
 ## 程序
 
 | 程序 | 解释 | 备注 |
